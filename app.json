@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Fuelup",
+    "slug": "Project1",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#E14126"
+  },
+  "facebookScheme":"fb2367470516914739",
+  "facebookAppId" :"2367470516914739" ,
+  "facebookDisplayName": "Fuel up" ,
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" :"com.accessgroup.fuelup"
+    } ,
+    "android": {
+      "package": "com.accessgroup.fuelup"
+    }
+  }
+}
